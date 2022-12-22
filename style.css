@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: content-box;
+}
+
+.calc{
+    width:40%;
+    height: 60%;
+    border: 2px solid yellowgreen;
+    margin:auto;
+    text-align: center;
+    margin-top: 5%;
+    border-radius: 10px;
+    box-shadow:  2rem 2rem 4rem green;
+}
+.header{
+    font-family: cursive;
+    color: yellow;
+    background: green;
+    margin-bottom: 2rem;
+}
+.text-input{
+    width: 80%;
+   text-align: end;
+    color:grey;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5, 4rem);
+    gap:1rem;
+    text-align: center;
+   padding: 4rem;
+}
+.span{
+    grid-column:span 2;
+}
